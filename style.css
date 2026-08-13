@@ -319,6 +319,10 @@ section:nth-of-type(even) {
     grid-template-columns: 1fr;
   }
 
+  .project-image--cover img {
+    object-fit: contain;
+  }
+
   section {
     padding: 3.5rem 0;
   }
