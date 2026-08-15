@@ -354,6 +354,20 @@ section:nth-of-type(even) {
   padding-left: 0.5rem;
 }
 
+.past-work-table th:nth-child(2) {
+  padding-left: 0.5rem;
+}
+
+.pw-role {
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.pw-learned {
+  color: var(--text-muted);
+}
+
 .pw-company {
   display: flex;
   align-items: center;
@@ -636,6 +650,10 @@ section:nth-of-type(even) {
 
   .past-work-table td:nth-child(2) {
     padding: 0.85rem 0.75rem 0.85rem 0.4rem;
+  }
+
+  .past-work-table th:nth-child(2) {
+    padding-left: 0.4rem;
   }
 
   section {
